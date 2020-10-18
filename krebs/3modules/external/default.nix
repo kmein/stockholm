@@ -261,8 +261,8 @@ in {
         retiolum = {
           ip4.addr = "10.243.2.2";
           aliases = [
-            "zaatar.r"
-            "zaatar.kmein.r"
+            "scardanelli.r"
+            "scardanelli.kmein.r"
           ];
           tinc.pubkey = ''
             -----BEGIN PUBLIC KEY-----
