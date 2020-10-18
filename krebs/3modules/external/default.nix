@@ -23,7 +23,10 @@ in {
       nets = {
         retiolum = {
           ip4.addr = "10.243.2.3";
-          aliases = [ "toum.kmein.r" ];
+          aliases = [
+            "toum.r"
+            "toum.kmein.r"
+          ];
           tinc.pubkey = ''
             -----BEGIN PUBLIC KEY-----
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2tRtskPP6391+ZX9xzsx
@@ -48,7 +51,10 @@ in {
       nets = {
         retiolum = {
           ip4.addr = "10.243.2.4";
-          aliases = [ "wilde.kmein.r" ];
+          aliases = [
+            "wilde.r"
+            "wilde.kmein.r"
+          ];
           tinc.pubkey = ''
             -----BEGIN PUBLIC KEY-----
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtz/MY5OSxJqrEMv6Iwjk
@@ -99,6 +105,7 @@ in {
         retiolum = {
           ip4.addr = "10.243.2.1";
           aliases = [
+            "homeros.r"
             "homeros.kmein.r"
           ];
           tinc.pubkey = ''
@@ -227,6 +234,7 @@ in {
         retiolum = {
           ip4.addr = "10.243.2.2";
           aliases = [
+            "scardanelli.r"
             "scardanelli.kmein.r"
           ];
           tinc.pubkey = ''
