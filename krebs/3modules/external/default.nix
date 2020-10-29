@@ -234,8 +234,8 @@ in {
         retiolum = {
           ip4.addr = "10.243.2.2";
           aliases = [
-            "scardanelli.r"
-            "scardanelli.kmein.r"
+            "zaatar.r"
+            "zaatar.kmein.r"
           ];
           tinc.pubkey = ''
             -----BEGIN PUBLIC KEY-----
@@ -470,7 +470,7 @@ in {
       mail = "jacek.galowicz@gmail.com";
     };
     kmein = {
-      mail = "kieran.meinhardt@gmail.com";
+      mail = "kmein@posteo.de";
       pubkey = ssh-for "kmein";
     };
     mic92 = {
