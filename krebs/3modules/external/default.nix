@@ -200,6 +200,12 @@ in {
     makanek = {
       owner = config.krebs.users.kmein;
       nets = {
+        internet = {
+          ip4 = {
+            addr = "88.99.83.173";
+            prefix = "88.99.83.173/32";
+          };
+        };
         retiolum = {
           ip4.addr = "10.243.2.84";
           aliases = [
